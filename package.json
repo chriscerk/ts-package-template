@@ -1,6 +1,6 @@
 {
   "name": "@org-or-user/ts-package-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Brief description of the project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,8 +22,7 @@
     "read:version": "node -e \"console.log('export const pkgVersion=\\\"' + require('./package.json').version + '\\\";')\"",
     "read:name": "node -e \"console.log('export const pkgName=\\\"' + require('./package.json').name + '\\\";')\"",
     "write:exp-pkgName": "echo \"$(npm run --silent read:name)\" >> src/package-constants.ts",
-    "write:exp-pkgVersion": "echo \"$(npm run --silent read:version)\" >> src/package-constants.ts",
-    "prepare": "husky install"
+    "write:exp-pkgVersion": "echo \"$(npm run --silent read:version)\" >> src/package-constants.ts"
   },
   "license": "UNLICENSED",
   "engines": {
