@@ -1,3 +1,5 @@
+@org-or-user/ts-package-template / [Exports](modules.md)
+
 # ts-package-template
 
 ![alt text](./coverage/badge-statements.svg)
@@ -13,8 +15,4 @@
 
 ## Getting started
 
-- `chmod a+x repo-init.sh && ./repo-init.sh ORG_OR_USER`
-
-## Reset
-
-- `chmod a+x repo-reset.sh && ./repo-reset.sh ORG_OR_USER`
+1. `chmod a+x repo-init.sh && ./repo-init.sh ORG_OR_USER`
