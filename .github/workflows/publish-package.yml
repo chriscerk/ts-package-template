@@ -18,10 +18,9 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@org-user-scope'
+          scope: '@org-or-user'
       - run: npm install
       - run: npm test
-      # - run: npm run release
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

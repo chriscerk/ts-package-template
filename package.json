@@ -1,6 +1,6 @@
 {
   "name": "@org-or-user/ts-package-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Brief description of the project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

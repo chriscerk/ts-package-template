@@ -15,4 +15,5 @@ Functionality related to the logging of habits.
 
 ## Getting started
 
-- Find replace `org-or-user` with respective organization or user name
+1. `chmod a+x repo-init.sh && ./repo-init.sh ORG_OR_USER`
+
