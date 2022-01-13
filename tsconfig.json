@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "module": "CommonJS",
+    "target": "es3",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"]
+}
