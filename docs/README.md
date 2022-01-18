@@ -15,4 +15,8 @@
 
 ## Getting started
 
-1. `chmod a+x repo-init.sh && ./repo-init.sh ORG_OR_USER`
+- `chmod a+x repo-init.sh && ./repo-init.sh -n ORG_OR_USER -r REPO_NAME`
+
+## Reset
+
+- `chmod a+x repo-reset.sh && ./repo-reset.sh -n ORG_OR_USER -r REPO_NAME`

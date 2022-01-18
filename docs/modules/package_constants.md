@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[package-constants.ts:1](https://github.com/org-or-user/ts-package-template/blob/2fd4f8b/src/package-constants.ts#L1)
+[package-constants.ts:1](https://github.com/chriscerk/ts-package-template/blob/74e60d6/src/package-constants.ts#L1)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[package-constants.ts:2](https://github.com/org-or-user/ts-package-template/blob/2fd4f8b/src/package-constants.ts#L2)
+[package-constants.ts:2](https://github.com/chriscerk/ts-package-template/blob/74e60d6/src/package-constants.ts#L2)
