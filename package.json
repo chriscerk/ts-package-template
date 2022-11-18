@@ -13,6 +13,7 @@
     "build": "tsc",
     "prepack": "yarn build",
     "test": "jest && jest-coverage-badges",
+    "test:watch": "yarn run jest --watch",
     "release": "standard-version && npm run release:pkg-consts",
     "lint": "eslint -f unix \"src/**/*.{ts,tsx}\"",
     "tidy": "npm run tidy:pkgs",
